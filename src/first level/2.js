@@ -1,2 +1,2 @@
-export const getLongestWord = str =>
-  str.split(' ').reduce((acc, e) => (e.length >= acc.length ? e : acc), '')
+export const getLongestWordLength = str =>
+  str.split(' ').reduce((acc, e) => Math.max(e.length, acc), 0)
