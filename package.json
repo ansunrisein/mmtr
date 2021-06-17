@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "repository": "https://github.com/ansunrisein/mmtr.git",
   "author": "ansunrisein <ansunrisein@gmail.com>",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.5",
